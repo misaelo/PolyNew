@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-
+<!--el misa se la come-->
 <html>
 <head lang="es">
 	<title>Inicio</title>

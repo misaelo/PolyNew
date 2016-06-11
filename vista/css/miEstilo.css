@@ -1,0 +1,280 @@
+
+
+#index {
+background: url(../img/imagen1.jpg) no-repeat center center fixed; 
+background-repeat: no-repeat; 
+background-attachment: fixed;
+height: 690px;
+text-align: center;
+position: relative;
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/* imagen index*/
+#index2 {
+background: url(../img/abajo.jpg) no-repeat center center fixed; /*background responsive */
+background-attachment: fixed; /* La imagen no se mueva */
+height: 700px; /* Definimos el largo */
+text-align: center; /* Aliñeamos el div al centro */
+position: relative;
+-webkit-background-size: cover; /* que se ajuste la imagen */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/* logo  index1*/
+#logo{
+background:url(../img/logo.png) no-repeat center center;
+display: block;
+height:400px ;
+width: 100% ;
+position: relative;
+ -vendor-animation-duration: 10s;
+  -vendor-animation-delay: 5s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+#logo2{
+background:url(../img/logo3.png) no-repeat center center;
+display: block;
+height:400px ;
+width: 100% ;
+position: relative;
+ -vendor-animation-duration: 10s;
+  -vendor-animation-delay: 5s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+
+/* footer index 1*/
+#footer-btn
+{
+margin-top: 100px;
+}
+
+#user-inicio:hover
+{
+	 color: black;
+}
+
+#home-productos:hover
+{
+	 color: black;
+}
+
+/* TERMINA PARALLAX*/
+
+
+/* INDEX PAGINA 2*/
+
+#carrusel
+{
+margin-top: 40px;
+}
+
+#footer-row2
+{
+margin-top: 40px;
+}
+
+
+/* HOJA DE MENU_PRODUCTOS PRUEB */
+
+header{
+margin-bottom: 50px;
+}
+
+#menu_clientes{
+margin-top: -100px;
+
+}
+
+
+.mejora_menu_clientes{
+
+  background-color: black;
+}
+
+.box
+{ 
+  background: url(../img/imagen1.jpg) no-repeat center center fixed;
+  position: relative;
+  height: 400px;
+  background-attachment: fixed;
+  position:top center;
+  -webkit-background-size: cover; /* que se ajuste la imagen */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logo
+{
+background: url(../img/logo2.png);
+height: 300px;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+position: absolute;
+}
+
+.logo2
+{
+background: url(../img/logo3.png);
+height: 300px;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+position: absolute;
+}
+
+.front
+{
+background: url(../img/pelotas.png);
+width: 100%;
+height: 250px;
+background-repeat: no-repeat;
+background-position: bottom right;
+position: absolute;
+margin-top: 200px;
+
+}
+
+#imagen-producto{
+  height: 200px;
+  width: 623px;
+}
+.imagen-producto{
+  height: 90%;
+  width: 95%;
+}
+#jumbo-informacion{
+background:white;
+
+
+-webkit-box-shadow: 10px 10px 10px 10px rgba(118,171,227,1);
+-moz-box-shadow: 10px 10px 10px 10px rgba(118,171,227,1);
+box-shadow: 10px 10px 10px 10px rgba(118,171,227,1);
+
+
+}
+
+#container-producto:hover{
+background-color:#FAFAFA;
+  
+}
+
+.ocultartxt{
+ text-overflow: ellipsis; /* puntos suspensivos */
+white-space: nowrap;     /* no permite multilinea */
+overflow: hidden;        /* ocultar el resto */
+}
+
+
+.list {
+  font-family:sans-serif;
+}
+td {
+  padding:10px; 
+  border:solid 1px #eee;
+}
+
+input {
+  border:solid 1px #ccc;
+  border-radius: 5px;
+  padding:7px 14px;
+  margin-bottom:10px
+}
+input:focus {
+  outline:none;
+  border-color:#aaa;
+}
+.sort {
+  padding:8px 30px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  color:#fff;
+  text-decoration: none;
+  background-color: #28a8e0;
+  height:30px;
+}
+.sort:hover {
+  text-decoration: none;
+  background-color:#1b8aba;
+}
+.sort:focus {
+  outline:none;
+}
+.sort:after {
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
+}
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:4px;
+  right:-5px;
+}
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:-4px;
+  right:-5px;
+}
+
+.zoom div{
+-webkit-transition:all 0.7s ease; /* Safari y Chrome */
+-moz-transition:all 0.7s ease; /* Firefox */
+-o-transition:all 0.7s ease; /* IE 9 */
+-ms-transition:all 0.7s ease; /* Opera */
+cursor:pointer;
+}
+.zoom div:hover {
+-webkit-transform:scale(1.05);
+-moz-transform:scale(1.05);
+-ms-transform:scale(1.05);
+-o-transform:scale(1.05);
+transform:scale(1.05);
+border-color: cornflowerblue;
+}
+.corre{
+  margin: 10px;
+}
+
+.pagination li {
+  display:inline-block;
+  padding:5px;
+}
+
+#icono_informacion
+{
+ color:black;
+ 
+
+ }

@@ -57,7 +57,7 @@ $Id_categoria = $_REQUEST['id_categoria'];
 					marca = $("#marca-" + id).text();
 					descripcion = $("#descripcion-" + id).text();
 
-					//alert(img);
+					//alert(img)asdsakdksajdksadkhadsajdkljahkedmk;
 
 					$("#Mmarca").text(marca);
 					$("#Mprecio").text(precio);

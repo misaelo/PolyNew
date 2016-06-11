@@ -45,6 +45,7 @@ $Id_categoria = $_REQUEST['id_categoria'];
 				$("#Mdescripcion").text(null);
 				$("#Mproducto").text(null);
 				$("#MimgNormal").attr("src", null);
+				$("#MimgNormal2").attr("src", null);
 			};	
 
 			function mostrar(id){
@@ -63,6 +64,7 @@ $Id_categoria = $_REQUEST['id_categoria'];
 					$("#Mdescripcion").text(descripcion);
 					$("#Mproducto").text(nombre);
 					$("#Mimagen").attr("src", img);
+					$("#Mimagen2").attr("src", img);
 
 					$("#mostrar").modal();
 				};
@@ -97,11 +99,12 @@ $Id_categoria = $_REQUEST['id_categoria'];
 	
 	<div class="container">
 			<div id="productos">
-			
+			<!--
 			<div class="text-right ">
 		  		<label for="busquedad">Buscar: </label>
 		  		<input class="search" id="txt-busquedad">
 			</div>
+			-->
 			<hr />	
 			<div class="list">
 			<?php 
@@ -139,7 +142,8 @@ $Id_categoria = $_REQUEST['id_categoria'];
         <div class="modal-body">
 			<div class="container-fluid">
 				<div class="row col-xs-12 col-sm-12 col-md-8" >
-					<img id="Mimagen" class="thumbnail img-responsive maxwit" alt="Responsive image" style=" max-width:500px;" />
+					<img id="Mimagen" class="thumbnail img-responsive hidden-xs" alt="Responsive image" style=" max-width:500px; max-height: 400px;" />
+					<img id="Mimagen2" class="thumbnail img-responsive visible-xs" alt="Responsive image" style="max-height: 400px;" />
 				</div>
 				<div class="row col-xs-12 col-sm-12 col-md-4" >
 					<p id="Mmarca">marca</p>
